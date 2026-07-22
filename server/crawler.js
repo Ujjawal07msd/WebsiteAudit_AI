@@ -215,7 +215,7 @@ export async function crawlWebsite(targetUrl) {
       result.html = response.data && typeof response.data === "string" ? response.data : "";
     } catch (axiosErr) {
       result.error = axiosErr.message;
-      result.responseTimeMs = Date.now() - startTime;
+      result.responseTimeMs = Date.now() - t1;
     }
   }
 
