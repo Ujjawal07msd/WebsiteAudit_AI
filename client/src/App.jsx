@@ -158,14 +158,14 @@ export default function App() {
         )}
 
         {/* Footer Attribution & Copyright Ownership */}
-        <footer className="mt-16 border-t border-slate-900 pt-8 pb-4 text-xs text-slate-400">
-          <div className="flex flex-wrap items-center justify-between gap-6 mb-6">
+        <footer className="mt-12 border-t border-slate-800/80 pt-6 pb-4 text-xs text-slate-400 space-y-4">
+          <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <div className="flex items-center gap-2 font-bold text-slate-200 text-sm mb-1">
+              <div className="flex items-center gap-2 font-bold text-slate-200 text-sm">
                 <ShieldCheck className="h-4 w-4 text-blue-400" />
                 <span>Website Audit AI — WAEF v2.0</span>
               </div>
-              <p className="text-slate-400">
+              <p className="text-slate-400 text-[11px] mt-0.5">
                 Official Website Quality Index (WQI) 5-Pass Audit Framework by <strong>{auditorName}</strong> (VIT Bhopal University)
               </p>
             </div>
@@ -191,7 +191,7 @@ export default function App() {
             {/* Social Media Links */}
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/Ujjawal07msd/WebsiteAudit_AI"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub Profile"
@@ -211,7 +211,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="border-t border-slate-900/60 pt-4 text-center text-slate-500 font-medium">
+          <div className="text-center text-slate-500 font-medium text-[11px]">
             Developed & Audited by <strong>{auditorName}</strong> (VIT Bhopal University) • © 2026 <strong>{auditorName}</strong>. All Rights Reserved.
           </div>
         </footer>
